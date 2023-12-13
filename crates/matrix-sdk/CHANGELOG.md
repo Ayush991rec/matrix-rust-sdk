@@ -54,6 +54,8 @@ Additions:
 - Add `Client::subscribe_to_room_updates` and `room::Common::subscribe_to_updates`
 - Add `Client::rooms_filtered`
 - Add methods on `Client` that can handle several authentication APIs.
+- Add new method `force_discard_session` on `Room` that allows to discard the current
+  outbound session (room key) for that room. Can be used by clients for the `/discardsession` command.
 
 # 0.6.2
 
